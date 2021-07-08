@@ -1,4 +1,4 @@
-package classes;
+package faculdade;
 
 public class Disciplina {
     private String nome;
@@ -8,5 +8,6 @@ public class Disciplina {
     public Disciplina(String nome, int ch, Professor professor){
         this.nome = nome;
         this.ch = ch;
-        this.professor = professor;}
+        this.professor = professor;
+    }
 }
